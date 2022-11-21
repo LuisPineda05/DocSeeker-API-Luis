@@ -44,6 +44,7 @@ public class NewService : INewService
             return new NewResponse("New not found.");
 
         existingNew.Title = _new.Title;
+        existingNew.Views = _new.Views;
 
         try
         {

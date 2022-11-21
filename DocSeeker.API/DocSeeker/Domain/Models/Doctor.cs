@@ -16,6 +16,7 @@ namespace DocSeeker.API.DocSeeker.Domain.Models
 
         public IList<Date> CDates { get; set; } = new List<Date>();
         public IList<HourAvailable> CHoursAvailable { get; set; } = new List<HourAvailable>();
+        public IList<Review> CReviews { get; set; } = new List<Review>();
 
     }
 }

@@ -14,7 +14,9 @@ public class ResourceToModelProfile : Profile
         CreateMap<SaveNewResource, New>();
         CreateMap<SaveDateResource, Date>();
         CreateMap<SaveHourAvailableResource, HourAvailable>();
-
+        CreateMap<SaveReviewResource, Review>();
+        CreateMap<SaveMedicalInformationResource, MedicalInformation>();
+        CreateMap<SavePrescriptionResource, Prescription>();
     }
 }
 

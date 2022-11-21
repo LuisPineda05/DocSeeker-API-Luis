@@ -1,0 +1,16 @@
+﻿namespace DocSeeker.API.DocSeeker.Domain.Models
+{
+    public class MedicalInformation
+    {
+        public int Id { get; set; }
+
+        public double height { get; set; }
+        public double weight { get; set; }
+        public double bodyMass { get; set; }
+        public string allergy { get; set; }
+        public string pathological { get; set; }
+
+        public int IdPatient { get; set; }
+        public Patient CPatient { get; set; }
+    }
+}

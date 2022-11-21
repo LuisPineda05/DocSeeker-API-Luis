@@ -86,6 +86,12 @@ builder.Services.AddScoped<IDateRepository, DateRepository>();
 builder.Services.AddScoped<IDateService, DateService>();
 builder.Services.AddScoped<IHourAvailableRepository, HourAvailableRepository>();
 builder.Services.AddScoped<IHourAvailableService, HourAvailableService>();
+builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+builder.Services.AddScoped<IReviewService, ReviewService>();
+builder.Services.AddScoped<IMedicalInformationRepository, MedicalInformationRepository>();
+builder.Services.AddScoped<IMedicalInformationService, MedicalInformationService>();
+builder.Services.AddScoped<IPrescriptionRepository, PrescriptionRepository>();
+builder.Services.AddScoped<IPrescriptionService, PrescriptionService>();
 
 // Security Injection Configuration
 
